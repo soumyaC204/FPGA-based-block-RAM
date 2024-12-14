@@ -28,7 +28,7 @@ valid
     ascii=8'h00;
     if(!is_break_code)begin
     case(scan_code)
-    8'h1C:ascii="B";
+    8'h1C:ascii="A";
     default:ascii=8'h00;
     endcase
     valid=(ascii!=8'h00);
